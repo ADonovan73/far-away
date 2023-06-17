@@ -7,7 +7,7 @@ export default function App() {
   function handleAddItems(item) {
     setItems((items) => [...items, item]);
   }
-
+  // this is a test
   function handleDeleteItem(id) {
     setItems((items) => items.filter((item) => item.id !== id));
   }
